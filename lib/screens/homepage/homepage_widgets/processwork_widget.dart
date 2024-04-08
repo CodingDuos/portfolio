@@ -30,9 +30,10 @@ class ProcessWork extends StatelessWidget {
                               height: 320,
                               width: 500,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(topRight: Radius.circular(50),bottomRight: Radius.circular(5))
+                                borderRadius: BorderRadius.only(topRight: Radius.circular(5),bottomRight: Radius.circular(5)),
+                              image: DecorationImage(image: AssetImage(Myimages.pc),fit: BoxFit.fill,)
                               ),
-                                  child: Image.asset(Myimages.pc,fit: BoxFit.fill,)
+                                  
                             ),
               ],
             ),

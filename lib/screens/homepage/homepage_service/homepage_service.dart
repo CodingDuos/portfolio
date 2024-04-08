@@ -1,4 +1,5 @@
 import 'package:aaaaaa/screens/homepage/homepage_widgets/aboutme_widget.dart';
+import 'package:aaaaaa/screens/homepage/homepage_widgets/award_widget.dart';
 import 'package:aaaaaa/screens/homepage/homepage_widgets/education_widget.dart';
 import 'package:aaaaaa/screens/homepage/homepage_widgets/experience_widget.dart';
 import 'package:aaaaaa/screens/homepage/homepage_widgets/introduction_widget.dart';
@@ -17,7 +18,7 @@ const IntroductionWidget(),
 const Aboutme(),
 const ServicesWidget(),
 const EducationWidget(),
-
+const AwardWidget(),
 const ProjectsWidget(),
 const ExperienceWidget(),
 const ProcessWork(),

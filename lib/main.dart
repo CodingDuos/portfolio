@@ -1,6 +1,8 @@
-// ignore_for_file: unused_import
+// ignore_for_file: unused_import, duplicate_import
 
 import 'package:aaaaaa/screens/homepage/homepage_widgets/aboutme_widget.dart';
+import 'package:aaaaaa/screens/homepage/homepage_widgets/award_widget.dart';
+import 'package:aaaaaa/screens/homepage/homepage_widgets/award_widget.dart';
 import 'package:aaaaaa/screens/homepage/homepage_widgets/experience_widget.dart';
 import 'package:aaaaaa/screens/homepage/homepage_widgets/personal_experties_widget.dart';
 import 'package:aaaaaa/screens/homepage/homepage_widgets/processwork_widget.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
     debugShowCheckedModeBanner: false,
-      home:  ProcessWork(),
+      home:  AwardWidget(),
     );
   }
 }
